@@ -1,0 +1,357 @@
+.main-nav {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  height: 150px;
+}
+
+.main-nav li {
+  list-style: none;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: #000;
+  transform: rotate(45deg);
+  transition: 0.5s;
+  margin: -100px;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+
+
+.main-nav li.item1 {
+  top: 0;
+  left: 0;
+}
+
+.main-nav li.item2 {
+  bottom: 90%;
+  left: 15%;
+}
+
+.main-nav li.item3 {
+  top: 0;
+  left: 30%;
+}
+
+.main-nav li.item4 {
+  bottom: 90%;
+  left: 45%;
+}
+
+.main-nav li.item5 {
+  top: 0;
+  left: 60%;
+}
+
+
+.main-nav li.item6 {
+  bottom: 90%;
+  left: 75%;
+}
+
+.main-nav li.item7 {
+  top: 0;
+  left: 90%;
+}
+
+.main-nav li.item8 {
+  bottom: 90%;
+  left: 105%;
+}
+
+.main-nav li.item9 {
+  top: 0;
+  left: 120%;
+}
+
+
+.main-nav li.item10 {
+  top: 125%;
+  left: 0;
+}
+
+.main-nav li.item11 {
+  top: 190%;
+  left: 15%;
+}
+
+.main-nav li.item12 {
+  bottom: 30%;
+  left: 30%;
+}
+
+.main-nav li.item13 {
+  top: 190%;
+  left: 45%;
+}
+
+.main-nav li.item14 {
+  bottom: 30%;
+  left: 60%;
+}
+
+.main-nav li.item15 {
+  top: 190%;
+  left: 75%;
+}
+
+
+.main-nav li.item16 {
+  bottom: 30%;
+  left: 90%;
+}
+
+.main-nav li.item17 {
+  top: 190%;
+  left: 105%;
+}
+
+.main-nav li.item18 {
+  bottom: 30%;
+  left: 120%;
+}
+
+.main-nav li.item19 {
+  bottom: -100%;
+  left: 0;
+}
+
+
+.main-nav li.item20 {
+  bottom: -100%;
+  left: 30%;
+}
+
+.main-nav li.item21 {
+  bottom: -100%;
+  left: 60%;
+}
+
+.main-nav li.item22 {
+  bottom: -100%;
+  left: 90%;
+}
+
+.main-nav li.item23 {
+  bottom: -100%;
+  left: 120%;
+}
+
+.main-nav li.item24 {
+  bottom: -250%;
+  left: 57.5%;
+  width: 150px;
+  height: 150px;
+}
+
+
+.main-nav li .hex {
+  width: 100%;
+  height: 100%;
+  margin: 5px 0 -5px 5px;
+  transform: scale(1.1);
+}
+
+.main-nav li.item1 .hex {
+  background: url(../resources/ASV.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.main-nav li.item3 .hex {
+  background: url(../resources/ASV.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.main-nav li.item5 .hex {
+  background: url(../resources/ASV.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.main-nav li.item7 .hex {
+  background: url(../resources/ASV.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.main-nav li:active.item1  {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(75.5%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item2 {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(57%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item3  {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(38%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item4 {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(19.5%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item5  {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(1.5%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item6 {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(-18.5%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item7  {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(-37%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item8 {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(-56%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item9  {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(-74.5%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item10 {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(75.5%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item11  {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(57%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item12 {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(38%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item13  {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(19.5%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item14 {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(1.5%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item15  {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(-18.5%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item16 {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(-37%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item17  {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(-55.5%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item18 {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(-74%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item19  {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(75.5%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+
+.main-nav li:active.item20 {
+  transition: 0.5s ease-in-out;
+  transform: scale(4) translate(38%,-60%);
+  opacity: 100;
+  overflow:hidden;
+}
+
+.main-nav li:active.item21  {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(1%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item22 {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(-37%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item23  {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(-74%,-60%);
+      opacity: 100;
+      overflow:hidden;
+}
+
+.main-nav li:active.item24  {
+      transition: 0.5s ease-in-out;
+      transform: scale(4) translate(0%,-75%);
+      opacity: 100;
+      overflow:hidden;
+}

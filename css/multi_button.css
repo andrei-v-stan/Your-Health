@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding:0;
+  -webkit-moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+body{
+  background:#311b92;
+  position:relative;
+}
+
+
+.share{
+  display:block;
+  width:100px;
+  height:100px;
+  background-image: url("../resources/button_base.jpg");
+  position:absolute;
+  top:300px;
+  left:50%;
+  z-index:999;
+  text-align:center;
+  overflow:hidden;
+  line-height:65px;
+  font-size:1.5em;
+  color:#fff;
+  -moz-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+-webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+box-shadow: 0 3px 9px rgba(0,0,0,.5);
+  border-radius:50px;
+  -webkit-o-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+}
+
+.share:hover{
+  cursor:pointer;
+}
+
+.one, .two, .three{
+  position:absolute;
+  width:50px;
+  height:50px;
+  color:#fff;
+  border-radius:50px;
+  text-align:center;
+  line-height:49px;
+  font-size:1.5em;
+   top:300px;
+  left:50%;
+   -webkit-o-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  -webkit-moz-box-shadow: 0 3px 9px rgba(0,0,0,.2);
+box-shadow: 0 3px 9px rgba(0,0,0,.2);
+  -webkit-moz-transition:transform  .3s ease-in-out;
+  transition:transform .3s ease-in-out;
+}
+
+.multi a {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    border-bottom-style: none;
+}
+
+.one:hover,
+.two:hover,
+.three:hover{
+  cursor:pointer;
+}
+
+.one i, .two i, .three i{
+  display:none;
+}
+
+
+.one{
+  background-image: url("../resources/BackgroundX.png");
+}
+
+.two{
+  background:#00e5ff;
+}
+
+.three{
+  background:#6a1b9a;
+}

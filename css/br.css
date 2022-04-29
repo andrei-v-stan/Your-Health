@@ -1,0 +1,54 @@
+.br {
+  display: block;
+  margin-bottom: 0;
+}
+
+.brXS {
+  display: block;
+  margin-bottom: -.4em;
+}
+
+.brS {
+  display: block;
+  margin-bottom: -.2em;
+}
+
+.brM{
+  display: block;
+  margin-bottom: 1em;
+}
+
+.brL {
+  display: block;
+  margin-bottom: 2em;
+}
+
+.brxL {
+  display: block;
+  margin-bottom: 3.5em;
+}
+
+.brXL {
+  display: block;
+  margin-bottom: 5em;
+}
+
+.brXXL {
+  display: block;
+  margin-bottom: 10em;
+}
+
+.brXXXL {
+  display: block;
+  margin-bottom: 15em;
+}
+
+.brXXXXL {
+  display: block;
+  margin-bottom: 20em;
+}
+
+.brXXXXXL {
+  display: block;
+  margin-bottom: 25em;
+}
