@@ -1,0 +1,69 @@
+body, html {
+  height: 100%;
+  background: #fff;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto 0;
+  -webkit-backface-visibility: hidden;
+}
+
+.pulse-button {
+  position: relative;
+  top: 50%;
+  left: 35%;
+  margin-left: -50px;
+  margin-top: -50px;
+  display: block;
+  width: 250px;
+  height: 250px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 100px;
+  border: none;
+  border-radius: 75%;
+  background: #6d92c5;
+  background-image: url(../resources/pulsingButton.png);
+  background-size: 210px 200px;
+  background-repeat: no-repeat;
+  background-position: 20px 35px;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 rgba(115, 91, 67, 0.5);
+  -webkit-animation: pulse 1.0s infinite;
+}
+
+.pulse-button:hover {
+  -webkit-animation: none;
+}
+
+.pulse-href a {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    border-bottom-style: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  70% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+  }
+  100% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+  }
+}
